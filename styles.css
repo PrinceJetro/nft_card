@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    padding: 0%;
+}
+
+.main{
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    width: 315px;
+}
+
+.equilibrium{
+    height: 300px;
+    width: 100%;
+}
+
+.words h1{
+    color: hsl(0, 0%, 100%);
+}
+
+.words p{
+    color: rgba(240, 248, 255, 0.356);
+    font-size: 18px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third .one {
+    color:hsl(178, 100%, 50%)
+}
+.third .two {
+    color: rgba(240, 248, 255, 0.356);
+}
+
+.last{
+    display: flex;   
+}
+.last img{
+    margin-right: 10px;
+}
+
+.last p{
+    color: rgba(240, 248, 255, 0.356);
+}
